@@ -29,3 +29,4 @@ nginx.conf
 
 # Ignore node_modules
 node_modules/
+acorn/
