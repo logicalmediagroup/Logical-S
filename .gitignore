@@ -1,0 +1,31 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-content/languages/
+/wp-content/upgrade/
+/wp-content/uploads/
+
+# Ignore plugins
+/wp-content/plugins/
+
+# Ignore themes except your custom theme
+/wp-content/themes/*
+!/wp-content/themes/Logical-S/
+
+# Ignore configuration files
+wp-config.php
+wp-config-sample.php
+
+# Ignore sensitive files
+.htaccess
+.htpasswd
+web.config
+nginx.conf
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore node_modules
+node_modules/
